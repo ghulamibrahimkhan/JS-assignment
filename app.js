@@ -132,7 +132,96 @@
 // var newVarMod = 3 % 5;
 // document.write(newVarMod + "<br>");
 
-    // (Task 3)
-var varDec;
+       // (Task 3)
+// var varDec;
+// document.write("value of the decleared variable is undefined");
+// varDec = 5;
+// document.write("<br>" +"Initial value: " + varDec);
+// varDec++;
+// document.write("<br>" +"Value after increment is: " + varDec);
+// varDec = varDec + 7;
+// document.write("<br>" +"Value after addition is: " + varDec);
+// varDec--;
+// document.write("<br>" +"Value after decrement is: " + varDec);
+// varDec = varDec % 3;
+// document.write("<br>" +"The reminder is: " + varDec);
 
-    
+    // (Task 4)
+// var ticketCost = 600;
+// document.write("The total cost of buying 5 tickets is " + (ticketCost * 5) + "PKR")
+
+    // (Task 5)
+// for(var i = 1; i <= 10; i++){
+//     document.write("2 x " + i + " = " + 2*i + "<br>");
+// }
+
+   // (Task 6)
+// var celsius = 40;
+// var fahrenheit;
+// fahrenheit = (celsius * 9 / 5) +32;
+// document.write(celsius + "°C is " + fahrenheit + "°F" + "<br>"); // Alt + 0176 for celsius sign
+
+// fahrenheit = 99;
+// celsius = (fahrenheit - 32) * 5 / 9;
+// document.write(fahrenheit + "°F is " + celsius + "°C" + "<br>"); // Alt + 0176 for celsius sign
+
+   // (Task 7)
+// document.write("<h1>" + "Shopping Cart" + "</h1>")
+//  // Items price //
+// var item1Price = 650;
+// var item2Price = 100;
+// // Shipping charges //
+// var shippingCharges = 100;
+// // Order quantity //
+// var orderQuantityItem1 = 3;
+// var orderQuantityItem2 = 7;
+
+//         // Order Calculation //
+// document.write("Price of item 1 is " + item1Price + "<br>")
+// document.write("Quantity of item 1 is " + orderQuantityItem1 + "<br>")
+// var costTotalItem1 = item1Price * orderQuantityItem1;
+
+// document.write("Price of item 2 is " + item2Price + "<br>")
+// document.write("Quantity of item 2 is " + orderQuantityItem2 + "<br>")
+// var costTotalItem2 = item2Price * orderQuantityItem2 ;
+
+// document.write("Shipping Charges " + shippingCharges + "<br>")
+// // Total cost of order //
+// document.write("Total cost of your order is " + (costTotalItem1 + costTotalItem2) )
+
+   // (Task 8)
+// var totalMarks = 980;
+// var marksObtained = 804;
+// var percentage = (804 / 980) * 100;
+// document.write("Total marks: " + totalMarks + "<br>");
+// document.write("Marks otained: " + marksObtained + "<br>");
+// document.write("Percentage: " + percentage + "%" + "<br>");
+
+   // (Task 9)
+// var totalCurrency = document.write("Total Currency in PKR: " + (104.80 * 10 + 28 *25))
+
+   // (Task 10)
+// var tenthTask = (7 + 5 * 10) / 2;
+
+   // (Task 11)
+// var currentYear = 2020;
+// var birthYear = 2000;
+// var actualAge = currentYear - birthYear;
+// document.write("<h1>" + "Age Calcultor" + "</h1>");
+// document.write("Current Year: " + currentYear + "<br>");
+// document.write("Birth Year: " + birthYear + "<br>");
+// document.write("Your Age is: " + actualAge);
+
+   // (Task 11)
+//task skipped
+
+   // (Task 11)
+var favSnack = "rite";
+var currentAge = 20;
+var maxAge = 60;
+var amountPerDay = 3;
+document.write("Favourite Snack: " + favSnack + "<br>");
+document.write("Current age: " + currentAge + "<br>");
+document.write("Estimated Maximum Age: " + maxAge + "<br>");
+document.write("Amount of snacks per day" + amountPerDay + "<br>");
+document.write("You will need " + (maxAge*365*3) + " choclate chip to last you untillthe ripe old age of " + maxAge);
