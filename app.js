@@ -460,7 +460,24 @@
 // }
 
    // (Task 8)
+// var num = prompt("Check your number");
+// if(3 % num === 0){
+//     document.write("Given number is divisible by 3 ");
+
+// else{
+//     document.write("Given number is'nt divisible by 3 ");
+// }
+
    // (Task 9)
+// var num = +prompt("Enter the number" );
+// if(num % 2 === 0)
+// {
+//    document.write("Number is EVEN");
+// }
+// else{
+//  document.write("Number is ODD");
+}
+
 
    // (Task 10)
 // var temperature = +prompt("Input Today's Temprature in °C");  //alt + 0176
@@ -500,3 +517,7 @@
 // else{
 //     alert("Theres something worng")
 // }
+
+//  *************************************************************** //
+
+        // *** Chapter # 12 to 13 ***//
