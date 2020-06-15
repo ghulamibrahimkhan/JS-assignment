@@ -522,8 +522,64 @@
         // *** Chapter # 12 to 13 ***//
 
     // (Task 1)
-    var input =  prompt("Enter")
-    if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
-        alert ("Uppercase Letter");}
-    else if( (input.charCodeAt(0) >=97) && (input.charCodeAt(0) <=122) ){
-        alert ("Lowercase Letter");}
+// var input =  prompt("Enter")
+// if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
+//     alert ("Uppercase Letter");}
+// else if( (input.charCodeAt(0) >=97) && (input.charCodeAt(0) <=122) ){
+//     alert ("Lowercase Letter");}
+
+    // (Task 2)
+// var integer1st = +prompt("Enter 1st num");
+// var integer2nd = +prompt("Enter 2nd num");
+// if(integer1st === integer2nd){
+//     document.write("Both Integer Are Equal");
+// }
+// else if(integer1st > integer2nd){
+//     document.write("Integer 1 is Bigger");
+// }
+// else if(integer1st < integer2nd){
+//     document.write("Integer 2 is Bigger");
+// }
+// else{
+//    console.log(null);
+// }
+
+   // (Task 3)
+// var inputNumber = +prompt("Enter your number");
+// if(inputNumber === 0){
+//     document.write("The number is ZERO")
+// }
+// else if(inputNumber > 0){
+//     document.write("The number is POSITIVE")
+// }
+// else if(inputNumber < 0){
+//     document.write("The number is NEGATIVE")
+// }
+
+   // (Task 4)
+// skipped yet
+
+   // (Task 5)
+// var passWord = "saywebapp";
+// var inputPassword = prompt("Please Enter Your Password");
+// if(passWord === inputPassword){
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else if(inputPassword !== passWord){
+//     document.write("Incorrect password");
+// }
+// else{
+//     document.write("Please enter your password");
+// }
+
+   // (Task 6)
+// var greeting;
+// var hour = 13;
+// if(hour < 18){
+//     greeting = "Good day";
+// }
+// else{
+//     greeting = "Good evening";
+// }
+
+   // (Task 7)
