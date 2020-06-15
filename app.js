@@ -476,8 +476,7 @@
 // }
 // else{
 //  document.write("Number is ODD");
-}
-
+// }
 
    // (Task 10)
 // var temperature = +prompt("Input Today's Temprature in °C");  //alt + 0176
@@ -521,3 +520,10 @@
 //  *************************************************************** //
 
         // *** Chapter # 12 to 13 ***//
+
+    // (Task 1)
+    var input =  prompt("Enter")
+    if ( (input.charCodeAt(0) >=65) && (input.charCodeAt(0) <=90) ){ 
+        alert ("Uppercase Letter");}
+    else if( (input.charCodeAt(0) >=97) && (input.charCodeAt(0) <=122) ){
+        alert ("Lowercase Letter");}
