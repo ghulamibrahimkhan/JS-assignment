@@ -215,13 +215,116 @@
    // (Task 11)
 //task skipped
 
-   // (Task 11)
-var favSnack = "rite";
-var currentAge = 20;
-var maxAge = 60;
-var amountPerDay = 3;
-document.write("Favourite Snack: " + favSnack + "<br>");
-document.write("Current age: " + currentAge + "<br>");
-document.write("Estimated Maximum Age: " + maxAge + "<br>");
-document.write("Amount of snacks per day" + amountPerDay + "<br>");
-document.write("You will need " + (maxAge*365*3) + " choclate chip to last you untillthe ripe old age of " + maxAge);
+   // (Task 12)
+// var favSnack = "rite";
+// var currentAge = 20;
+// var maxAge = 60;
+// var amountPerDay = 3;
+// document.write("Favourite Snack: " + favSnack + "<br>");
+// document.write("Current age: " + currentAge + "<br>");
+// document.write("Estimated Maximum Age: " + maxAge + "<br>");
+// document.write("Amount of snacks per day" + amountPerDay + "<br>");
+// document.write("You will need " + (maxAge*365*3) + " choclate chip to last you untillthe ripe old age of " + maxAge);
+
+//  *************************************************************** //
+
+        // *** Chapter # 6 ***//
+
+    // (Task 1)
+// document.write("Result: " + "<br>");
+// a = 10;
+// document.write("The Value of a is " + a + "<br>");
+// document.write("............................................." + "<br>" + "<br>");
+
+// document.write("The Value of ++a is " + ++a + "<br>");
+// document.write("Now the value of ++a is " + a + "<br>");
+
+
+// document.write("<br>" + "<br>" + "The Value of a++ is " + a++ + "<br>");
+// document.write("Now the value of a++ is " + a + "<br>");
+
+
+// document.write("<br>" + "<br>" + "The Value of --a is " + --a + "<br>");
+// document.write("Now the value of --a is " + a + "<br>");
+
+
+// document.write("<br>" + "<br>" + "The Value of a-- is " + a-- + "<br>");
+// document.write("Now the value of a-- is " + a + "<br>");
+
+    // (Task 2)
+// var a = 2;
+// var b = 1;
+// var result = --a - --b +  ++b + b--;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>");
+
+// --a;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+// --a - --b;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+// --a - --b + ++b;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+// --a - --b + ++b +b--;
+// document.write("a is " + a + "<br>");
+// document.write("b is " + b + "<br>");
+// document.write("result is " + result + "<br>"+ "<br>");
+
+    // (Task 3)
+// var greetInput = prompt("Enter Your name");
+// var greetUser = alert("congratulations " + greetInput + " for you to be part of this course");
+
+    // (Task 5)
+// var inputTable = +prompt("Enter number",5);
+// for(i = 1; i <= 10; i++){
+//     document.write("2 x" + i + " = " + i*inputTable + "<br>");
+// }
+
+//     // (Task 6)
+// var sub1 = prompt("Enter Subject Name","Maths");
+// var sub2 = prompt("Enter Subject Name","Physics");
+// var sub3 = prompt("Enter Subject Name","Computer");
+
+// var totalMarks = 100;
+// var totalAllSubMarks = totalMarks * 3;
+
+
+// var obtainedMarkssub1 = +prompt("Obtained Marks in Subject1","100");
+// var obtainedMarkssub2 = +prompt("Obtained Marks in Subject2","90");
+// var obtainedMarkssub3 = +prompt("Obtained Marks in Subject3","80");
+// var obtainedMarks = obtainedMarkssub1 + obtainedMarkssub2 + obtainedMarkssub3;
+
+// var percnetageSub1 = obtainedMarkssub1 / totalMarks * 100;
+// var percnetageSub2 = obtainedMarkssub2 / totalMarks * 100;
+// var percnetageSub3 = obtainedMarkssub3 / totalMarks * 100;
+// var totalPercentage = obtainedMarks / 300 * 100;
+
+// document.write("<h1>" + "Subject  &nbsp; Total Marks &nbsp; Obtained MArks &nbsp; Percentage" + "</h1>");
+// document.write(sub1 + " &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp "
+//  + totalMarks + "&nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; " 
+//  + obtainedMarkssub1 + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" 
+//  + percnetageSub1 + "%" + "<br>");
+
+// document.write(sub2 + " &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp "
+//  + totalMarks + "&nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; " 
+//  + obtainedMarkssub2 + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp &nbsp;&nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" 
+//  + percnetageSub2 + "%" + "<br>");
+
+// document.write(sub3 + " &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp "
+//  + totalMarks + "&nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; " 
+//  + obtainedMarkssub3 + "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" 
+//  + percnetageSub3 + "%" + "<br>");
+
+// document.write("<h2>" + " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp" 
+// + totalAllSubMarks + " &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp" 
+// +  obtainedMarks + " &nbsp; &nbsp; &nbsp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; " 
+// +  totalPercentage + "%");
