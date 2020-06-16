@@ -602,4 +602,18 @@
 
 //  *************************************************************** //
 
-        // *** Chapter # 12 to 13 ***//
+        // *** Chapter # 13 to 15 ***//
+
+        // (Task 1)
+// var studentsName = [];
+
+        // (Task 2)
+// var studentsName = new Array();
+
+        // (Task 3)
+var strArray = ["Ghulam","Ibrahim","Khan"];
+
+        // (Task 4)
+// var numArray = [1,3,4,5,5,6,7];
+
+        // (Task 5)
