@@ -617,3 +617,4 @@ var strArray = ["Ghulam","Ibrahim","Khan"];
 // var numArray = [1,3,4,5,5,6,7];
 
         // (Task 5)
+        // (Task 5)
