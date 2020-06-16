@@ -611,10 +611,85 @@
 // var studentsName = new Array();
 
         // (Task 3)
-var strArray = ["Ghulam","Ibrahim","Khan"];
+// var strArray = ["Ghulam","Ibrahim","Khan"];
 
         // (Task 4)
 // var numArray = [1,3,4,5,5,6,7];
 
         // (Task 5)
-        // (Task 5)
+// var boolenArray  skipped                     task 5,6,7
+
+        // (Task 6)
+// var mixArray = ["ibrahim",3,"Khan",5]
+
+        // (Task 7)
+// var eduQualInPak = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PHD"]
+// for(var i = 0; i <= 7; i++){
+//     document.write(eduQualInPak[i] + "<br>");
+// }
+
+        // (Task 8)
+// var students = ["Ibrahim","Osams","Sulaman"];
+// var studentsScore = [450,300,380];
+// var totalMArks = 500;
+
+// for(var i = 0; i < 3; i++){
+//     document.write("Score of " + students[i] + " is " + studentsScore[i] + ". Percentage " + (studentsScore[i] / totalMArks) * 100 + "<br>")
+// }
+
+        // (Task 9)
+        // skipped
+
+        // (Task 10)
+// var studentSCore = [320,230,480,120,480];
+// document.write("Scores of Students :" + studentSCore + "<br>")
+// studentSCore.sort();        
+// studentSCore.reverse();
+// document.write( "Order Scores of Students : " + studentSCore)
+
+        // (Task 11)
+// var Cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+// var selectedCities = Cities.slice(2,6);
+
+// document.write( "Cities List:" + "<br>");
+// document.write(Cities  + "<br>"  + "<br>");
+
+// document.write("Selected cities list"  + "<br>");
+// document.write(selectedCities);
+
+        // (Task 12)
+// var arr = ["This","is","my","cat"];
+// document.write("<h1>" + "Array:" + "<br>" + arr   + "<br>");
+// var strJoin = arr.join(" ");                    // *****array’s join method****8
+// document.write("String:" + "<br>" + strJoin);
+
+        // (Task 13)
+// var arrNew = [];
+// arrNew.push("Keyboard");
+// arrNew.push("Mouse");
+// arrNew.push("Printer");
+// arrNew.push("Monitor");
+
+// for(i = 0; i < 4; i++){
+//     document.write("Out:" + "<br>" + arrNew[i] + "<br>")
+// }
+
+        // (Task 14)
+// var arrNew2 = [];
+// arrNew2.unshift("Keyboard");
+// arrNew2.unshift("Mouse");
+// arrNew2.unshift("Printer");
+// arrNew2.unshift("Monitor");
+
+// for(i = 0; i < 4; i++){
+//     document.write("Out:" + "<br>" + arrNew2[i] + "<br>")
+// }
+
+        // (Task 15)
+// var manufacturers = ["Apple","Samsung","Motorolla","Nokia","Sony","Haier"];
+
+// document.write("<select>");
+// for(i = 0; i < manufacturers.length; i++){
+// document.write("<option>" + manufacturers[i] + "</option>)");
+// }
+// document.write("</select>");
