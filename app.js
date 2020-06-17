@@ -693,3 +693,104 @@
 // document.write("<option>" + manufacturers[i] + "</option>)");
 // }
 // document.write("</select>");
+
+//  *************************************************************** //
+
+        // *** Chapter # 17 to 20 ***//
+
+        // (Task 1)
+// var multiDimArray = [
+//     []
+// ];
+
+//         // (Task 2)
+// var multiMatrixArray = [
+//     [0,1,2,3,],
+//     [1,0,1,2],
+//     [2,1,0,1],
+// ];
+// document.write(multiMatrixArray[0] + "<br>" + multiMatrixArray[1] + "<br>" + multiMatrixArray[2])
+
+        // (Task 3)
+// for(var i = 1; i <= 10; i++){
+//     document.write(i + "<br>" )
+// }
+
+//          (Task 4)
+// var num = prompt("Enter Number");
+// var len = prompt("Enter Length");
+// for(var i = 0; i <= len; i++ ){
+//     document.write(num + " x " + i + " = " + i*num  + "<br>")
+// }
+
+//         (Task 5)
+// fruits = ["apple", "banana", "mango", "orange","strawberry"]
+// for(var i = 0; i < fruits.length ; i++ ){
+//     document.write( fruits[i] + "  " + "<br>")
+// }
+// for(var i = 0; i < fruits.length ; i++ ){
+//     document.write("<br>" + "Element at index " + i + " is " + fruits[i] + "  " + "<br>")
+// }
+
+        // (Task 6)
+// document.write("<h1>" + "Counting" + "</h1>")
+// for(var i = 1; i < 15; i++ ){
+//     document.write("" + i + " ,")
+// }
+
+// document.write("<h1>" + "Reverce Counting" + "</h1>")
+// for(var i = 20; i > 0; i--){
+//     document.write("" + i + " ,")
+// }
+
+// document.write("<h1>" + "Even" + "</h1>")
+// for(var i = 0; i <= 20; i = i + 2 ){
+//     document.write(i + ", ")
+// }
+
+// document.write("<h1>" + "Odd" + "</h1>")
+// for(var i = 1; i < 20; i = i + 2 ){
+//      document.write(i + ", ")
+// }
+
+// document.write("<h1>" + "Series" + "</h1>")
+// for(var i = 2; i <= 20; i = i + 2 ){
+//     document.write(i + "K , ")
+// }
+
+        // (Task 7)
+
+// var search= prompt("Welcome to Ibrahim's Bakery. What do you want to order sir/ma'am?","Cookie"); 
+// search = search.toLowerCase();
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+// if(items[0] === search){
+//     document.write(items[0] + " is available at index 1 in our bakery")
+// }
+// else if(items[1] === search){
+//     document.write(items[1] + " is available at index 2 in our bakery")
+// }
+// else if(items[2] === search){
+//     document.write(items[2] + " is available at index 3 in our bakery")
+// }
+// else if(items[3] === search){
+//     document.write(items[3] + " is available at index 4 in our bakery")
+// }
+// else if(items[4] === search){
+//     document.write(items[04] + " is available at index 5 in our bakery")
+// }
+// else{
+//     document.write(" We're sorry. " + search + " is'nt available in our bakery "  )
+// }
+
+        // (Task 8)
+        // Skipped
+
+        // (Task 9)
+        // Skipped
+
+        // (Task 10)
+// document.write("<h1>" + "Series" + "</h1>")
+// for(var i = 5; i <= 100; i = i = i + 5 ){
+//     document.write(i + " , ")
+// }
